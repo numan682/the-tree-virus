@@ -33,8 +33,8 @@ Welcome to **The Tree Virus (TTV)** – an innovative solution designed to strea
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/yourusername/The-Tree-Virus.git
-   cd The-Tree-Virus
+   git clone https://github.com/numan682/the-tree-virus
+   cd the-tree-virus
    ```
 
 2. **Install Dependencies**
@@ -43,19 +43,11 @@ Welcome to **The Tree Virus (TTV)** – an innovative solution designed to strea
    pip install -r requirements.txt
    ```
 
-3. **Configure Devices**
+3. **Configure The Machine**
 
-   Edit the `config.json` file to include the IP addresses, usernames, and passwords of your devices.
+   Edit the `config.json` file to include the IP addresses, usernames, and passwords .
 
-   ```json
-   {
-       "devices": [
-           {"type": "router", "ip": "192.168.1.1", "username": "admin", "password": "password"},
-           {"type": "printer", "ip": "192.168.1.2"},
-           {"type": "isp_pc", "ip": "192.168.1.3", "username": "user", "password": "password"}
-       ]
-   }
-   ```
+   
 
 4. **Run the Script**
 
@@ -63,26 +55,6 @@ Welcome to **The Tree Virus (TTV)** – an innovative solution designed to strea
    python ttv.py
    ```
 
-## Configuration
-
-### `config.json`
-
-- **type**: Type of device (router, printer, isp_pc).
-- **ip**: IP address of the device.
-- **username**: (Optional) Username for SSH access.
-- **password**: (Optional) Password for SSH access.
-
-## Example `config.json`
-
-```json
-{
-    "devices": [
-        {"type": "router", "ip": "192.168.1.1", "username": "admin", "password": "password"},
-        {"type": "printer", "ip": "192.168.1.2"},
-        {"type": "isp_pc", "ip": "192.168.1.3", "username": "user", "password": "password"}
-    ]
-}
-```
 
 ## How to Contribute
 
@@ -101,6 +73,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any questions or suggestions, feel free to open an issue or contact us directly.
+WhatsApp: +8801317568946
 
 ---
 
