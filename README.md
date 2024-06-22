@@ -33,7 +33,7 @@ Welcome to **The Tree Virus (TTV)** – an innovative solution designed to strea
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/numan682/the-tree-virus
+   git clone https://github.com/numan682/the-tree-virus.git
    cd the-tree-virus
    ```
 
